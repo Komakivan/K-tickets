@@ -3,7 +3,7 @@ import mongoose from 'mongoose';
 import { app } from './app';
 
 async function BootServer() {
-  console.log('Server booting up ...');
+  console.log('Server booting up updated ...');
 
   if (!process.env.JWT_KEY) {
     throw new Error('JWT secrete missing');
